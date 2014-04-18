@@ -1,0 +1,30 @@
+html{
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  overflow-y: hidden; 
+  font-size: 100px;
+  text-align: center;
+}
+
+#passaro{
+	position: absolute;
+	top: 50%;
+	left: 20%;
+}
+
+.obstaculo{
+	background-color: black;
+	width: 50px;
+	position: absolute;
+}
+
+.cima{
+	top: 0;
+}
+
+.baixo{
+	bottom: 0;
+}
